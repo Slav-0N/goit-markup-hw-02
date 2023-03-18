@@ -1,21 +1,144 @@
-.header {}
+body {
+    font-family: Roboto, sans-serif;
+    
 
-.header-navigation {}
+}
 
-.header-logo {}
+.list {
+    list-style: none;
+}
 
-.header-list {}
+.link {
+    text-decoration: none; 
+}
 
-.list {}
 
-.header-item {}
+ 
 
-.header-link {}
+ 
 
-.link {}
+.logo-start {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    /* identical to box height, or 117% */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    /* IRIS */
+    
+    color: #4D5AE5;
+}
+.header-logo {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2E2F42;
+}
 
-.header-phone-linl {}
 
-.header-btn {}
+.header-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
 
-.logo-web {}
+.header-address { 
+    font-style: normal;
+    font-size: px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.hero {
+    background-color: #434455;
+}
+
+.hero-name {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.hero-btn {
+        font-family: inherit;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        /* identical to box height, or 150% */
+    
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.04em;
+    
+        /* WHITE */
+    
+        color: #FFFFFF;
+        cursor: pointer;
+}
+
+.goal-title {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
+
+.goal-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.work-title {
+ont-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2E2F42;
+}
+
+.team-title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: #2E2F42;
+}
+
+.team-member {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+    
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
+
+.team-member-text {
+    font-size: 16px;
+    line-height: 1.5;
+   
+    letter-spacing: 0.02em;
+    color: #434455;
+}
