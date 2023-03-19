@@ -1,6 +1,6 @@
 body {
     font-family: Roboto, sans-serif;
-    
+    color: #2E2F42;
 
 }
 
@@ -54,6 +54,11 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
 }
+.header-address:hover,
+.header-address:focus {
+    color: #404BBF;
+}
+
 
 .hero {
     background-color: #434455;
@@ -90,7 +95,7 @@ body {
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
-        color: #2E2F42;
+        
 }
 
 .goal-text {
@@ -106,7 +111,7 @@ line-height: 1.11;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-color: #2E2F42;
+
 }
 
 .team {
@@ -120,7 +125,7 @@ color: #2E2F42;
         text-align: center;
         letter-spacing: 0.02em;
         text-transform: capitalize;
-        color: #2E2F42;
+       
 }
 
 .team-member {
@@ -129,7 +134,7 @@ color: #2E2F42;
         line-height: 24px;
     
         letter-spacing: 0.02em;
-        color: #2E2F42;
+       
 }
 
 .team-member-text {
