@@ -49,7 +49,7 @@ body {
 
 .header-address { 
     font-style: normal;
-    font-size: px;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
@@ -100,7 +100,7 @@ body {
     color: #434455;
 }
 .work-title {
-ont-weight: 700;
+font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
 text-align: center;
@@ -161,7 +161,7 @@ footer {
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.17x;
+    line-height: 1.17;
     /* identical to box height, or 117% */
 
     display: flex;
