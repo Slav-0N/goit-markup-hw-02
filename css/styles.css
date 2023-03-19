@@ -13,10 +13,6 @@ body {
 }
 
 
- 
-
- 
-
 .logo-start {
     font-family: 'Raleway';
     font-weight: 800;
@@ -28,9 +24,6 @@ body {
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    
-    /* IRIS */
-    
     color: #4D5AE5;
 }
 .header-logo {
@@ -197,4 +190,20 @@ footer {
         /* IRIS */
     
         color: #4D5AE5;
+}
+
+.card-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.card-text {
+    font-size: 16px;
+    line-height: 1.5;
+    /* identical to box height, or 150% */
+    letter-spacing: 0.02em;
+    color: #434455;
 }
