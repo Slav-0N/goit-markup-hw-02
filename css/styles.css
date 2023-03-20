@@ -1,11 +1,12 @@
 :root {
-    --text-color: #434455;
+
     --header-color: #2E2F42;
 }
 
 body {
     font-family: Roboto, sans-serif;
-    color: var(--text-color);
+    color: #434455;
+    background-color: #FFFFFF;
 
 }
 
@@ -40,7 +41,7 @@ body {
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2E2F42;
+    color: var(--header-color);
 }
 
 
@@ -49,7 +50,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--header-color);
 }
 
 .header-address { 
@@ -57,7 +58,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--text-color);
+    
 }
 .header-address:hover,
 .header-address:focus {
@@ -66,7 +67,7 @@ body {
 
 
 .hero {
-    background-color: var(--text-color);
+    background-color: var(--header-color);
 }
 
 .hero-name {
@@ -76,30 +77,27 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    
 }
 
 .hero-btn {
-        font-family: inherit;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        /* identical to box height, or 150% */
-    
-        display: flex;
-        align-items: center;
-        letter-spacing: 0.04em;
-    
-        /* WHITE */
-    
-        color: #FFFFFF;
-        cursor: pointer;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    cursor: pointer;
 }
 
 .goal-title {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--header-color);
         
 }
 
@@ -107,7 +105,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--text-color);
+    
 }
 .work-title {
 font-weight: 700;
@@ -116,6 +114,7 @@ line-height: 1.11;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
+color: var(--header-color);
 
 }
 
@@ -130,14 +129,14 @@ text-transform: capitalize;
         text-align: center;
         letter-spacing: 0.02em;
         text-transform: capitalize;
-       
+        color: var(--header-color);
 }
 
 .team-member {
         font-weight: 500;
         font-size: 20px;
         line-height: 24px;
-    
+        color: var(--header-color);
         letter-spacing: 0.02em;
        
 }
@@ -145,9 +144,8 @@ text-transform: capitalize;
 .team-member-text {
     font-size: 16px;
     line-height: 1.5;
-   
     letter-spacing: 0.02em;
-    color: var(--text-color);
+    
 }
 
 .footer {
@@ -157,12 +155,7 @@ text-transform: capitalize;
 .footer-text {
         font-size: 16px;
         line-height: 1.5;
-        /* or 150% */
-    
         letter-spacing: 0.02em;
-    
-        /* CLOUD */
-    
         color: #F4F4FD;
 }
 
@@ -172,15 +165,10 @@ text-transform: capitalize;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    /* identical to box height, or 117% */
-
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-
-    /* CLOUD */
-
     color: #F4F4FD;
 }
 
@@ -202,12 +190,16 @@ text-transform: capitalize;
         color: #4D5AE5;
 }
 
+
+
+/* Portfolio page */
+
 .card-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02em;
-   
+    letter-spacing: 0.02em; 
+    color: var(--header-color);
 }
 
 .card-text {
@@ -215,5 +207,4 @@ text-transform: capitalize;
     line-height: 1.5;
     /* identical to box height, or 150% */
     letter-spacing: 0.02em;
-    color: var(--text-color);
-}
+    }
