@@ -1,10 +1,11 @@
 :root {
     --text-color: #434455;
+    --header-color: #2E2F42;
 }
 
 body {
     font-family: Roboto, sans-serif;
-    color: #2E2F42;
+    color: var(--text-color);
 
 }
 
