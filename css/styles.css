@@ -3,6 +3,7 @@
     --color-page: #FFFFFF;
     --header-color: #2E2F42;
     --iris-blue: #4d5ae5;
+    --body-color: #434455;
 }
 
 body {
@@ -35,7 +36,7 @@ body {
     color: var(--header-color);
 }
 .header-logo {
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -52,14 +53,14 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--header-color);
+    color: var(#434455);
 }
 
 .header-link:hover,
 .header-link:focus {
-    color: #404bbf;
+    color: var(--body-color);
 }
-.adr-links {
+.adr {
     font-style: normal;
 }
 
