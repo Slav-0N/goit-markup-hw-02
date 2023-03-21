@@ -138,6 +138,12 @@ color: var(--header-color);
 
 }
 
+.work-title-item {
+    background-color: #FFFFFF;
+}
+
+
+
 .team {
     background-color: #F4F4FD;
 }
