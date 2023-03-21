@@ -1,6 +1,8 @@
 :root {
+    --cloud-color: #F4F4FD;
     --color-page: #FFFFFF;
     --header-color: #2E2F42;
+    --iris-blue: #4d5ae5;
 }
 
 body {
@@ -30,10 +32,10 @@ body {
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
+    color: var(--header-color);
 }
 .header-logo {
-    font-family: 'Raleway';
+    font-family: Raleway;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -41,7 +43,7 @@ body {
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--header-color);
+    color: var(--iris-blue);
 }
 
 
@@ -53,8 +55,18 @@ body {
     color: var(--header-color);
 }
 
-.header-address { 
+.header-link:hover,
+.header-link:focus {
+    color: #404bbf;
+}
+
+
+.adr-links {
     font-style: normal;
+}
+
+.header-address { 
+    
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -193,6 +205,22 @@ color: var(--header-color);
 
 
 /* Portfolio page */
+
+.filter-btn {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--iris-blue);
+    background-color: var(--cloud-color);
+    cursor: pointer;
+}
+.filter-btn:hover,
+.filter-btn:hover {
+    color: var(--color-page);
+    background-color: #404BBF;
+}
 
 .card-name {
     font-weight: 500;
