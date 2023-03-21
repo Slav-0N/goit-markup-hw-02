@@ -102,8 +102,15 @@ body {
     align-items: center;
     letter-spacing: 0.04em;
     color: #FFFFFF;
+    background-color: #4D5AE5;
     cursor: pointer;
 }
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #404BBF;
+}
+
 
 .goal-title {
     font-weight: 500;
