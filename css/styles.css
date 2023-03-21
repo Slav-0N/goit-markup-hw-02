@@ -59,11 +59,9 @@ body {
 .header-link:focus {
     color: #404bbf;
 }
-
 .adr-links {
     font-style: normal;
 }
-
 
 .header-address { 
     font-size: 16px;
