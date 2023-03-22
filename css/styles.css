@@ -234,7 +234,7 @@ color: var(--header-color);
 }
 .filter-btn:hover,
 .filter-btn:focus {
-    color: var(--color-page);
+    color: #FFFFFF;
     background-color: #404BBF;
 }
 
