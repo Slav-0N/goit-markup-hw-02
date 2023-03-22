@@ -233,7 +233,7 @@ color: var(--header-color);
     cursor: pointer;
 }
 .filter-btn:hover,
-.filter-btn:hover {
+.filter-btn:focus {
     color: var(--color-page);
     background-color: #404BBF;
 }
@@ -251,4 +251,5 @@ color: var(--header-color);
     line-height: 1.5;
     /* identical to box height, or 150% */
     letter-spacing: 0.02em;
+    color: var(--body-color) ;
     }
